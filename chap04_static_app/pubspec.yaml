@@ -1,0 +1,37 @@
+name: chap04_static_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  # 이미지 경로 추가
+  assets: 
+    - image/
+    # - image/img01.jpg
+    # - image/img02.jpg
+    # - image/img03.jpg
+  # 폰트 경로 추가
+  fonts:
+    - family: Diphylleia
+      fonts:
+        - asset: font/Diphylleia-Regular.ttf
